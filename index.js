@@ -28,6 +28,7 @@ app.post('/payload', async (req, res) => {
     // check for "created" action
     if (req.body.action !== "created") {
         res.send()
+        return
     }
 
     try {
