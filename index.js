@@ -14,8 +14,6 @@ const accessToken = process.env.GH_API_KEY
 const username = process.env.GH_USERNAME
 const apiURL = "https://api.github.com"
 
-console.log(process.env.GH_API_KEY)
-
 // root route
 app.get('/', (req, res) => {
     res.send('GitHub API Interaction 👋')
