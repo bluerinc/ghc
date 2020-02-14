@@ -30,7 +30,7 @@ node index.js
 To test the service from your local development environment, you can use [ngrok](https://ngrok.com) to temporarily make your locally running web server publicly available. Once downloaded, you'll be able to run with the following command (for Unix-based Operating Systems) from the root of your project.
 
 ```
-/Applications/ngrok http 80
+/Applications/ngrok http 3000
 ```
 
 This will open an interface-tunnel such as `http://066c8c2f.ngrok.io/` that you can paste into GitHub to test the webhook. Note that you'll need to include the `/payload` route, so the full URL will look something like this `http://066c8c2f.ngrok.io/payload`.
