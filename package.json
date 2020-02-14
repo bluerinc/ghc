@@ -1,7 +1,7 @@
 {
-  "name": "xyz",
+  "name": "gh-api-interaction",
   "version": "1.0.0",
-  "description": "",
+  "description": "Express endpoint designed for invocation via a webhook that is triggered upon the creation of a new repository within a pre-configured GitHub organization.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
