@@ -27,6 +27,11 @@ app.post('/payload', async (req, res) => {
     // org and repo name provided in the body
     const repoFullName = req.body.repository.full_name
 
+    // check for "created" action
+    if (req.body.action !== "created") {
+        res.send()
+    }
+
     try {
         // create a temporary file to create the master branch
         await axios.request({
