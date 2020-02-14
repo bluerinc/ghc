@@ -39,6 +39,16 @@ This will open an interface-tunnel such as `http://066c8c2f.ngrok.io/` that you 
 
 To deploy to something more permanent (such as [Heroku](https://www.heroku.com/), [AWS Lambda](https://aws.amazon.com/lambda/), or [Azure Functions](https://azure.microsoft.com/en-us/services/functions/)) the code is largely ready to go. You'll just need to follow the respective guidelines to setup the environment variables, install the dependencies, etc.
 
+## Dependencies
+
+Note that the following 3rd party frameworks and libraries were used:
+
+- [Node.js](https://nodejs.org)
+- [Express](https://expressjs.com)
+- [Axios](https://www.npmjs.com/package/axios)
+- [dotenv](https://www.npmjs.com/package/dotenv)
+- [body-parser](https://www.npmjs.com/package/body-parser)
+
 ## Questions
 
 Any questions, feel free to reach out at [kevin@bluer.com](kevin@bluer.com).
